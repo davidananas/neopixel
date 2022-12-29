@@ -12,7 +12,7 @@ input.onButtonPressed(Button.A, function () {
         kitronik_servo_lite.driveBackwards(50)
     }
 })
-input.onButtonPressed(Button.B, function () {
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     opak = 1
 })
 let opak = 0
